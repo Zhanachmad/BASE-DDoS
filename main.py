@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-                                                                                                                    import os
+# -*- coding: utf-8 -*- import os
 import requests
 import datetime
 import asyncio
@@ -7,12 +7,12 @@ from urllib.parse import urlparse
 from sys import stdout
 from colorama import Fore, Style, init
 import logging                                                                                                                             
-# Inisialisasi Colorama dan Logging                                                                                                        init(autoreset=True)
-                                                                                                                                           # Pengaturan Logging yang benar
+# Inisialisasi Colorama dan Logging init(autoreset=True)
+# Pengaturan Logging yang benar
 logging.basicConfig(
     filename='attack.log',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',  # Perbaiki dari levellevel menjadi levelname                                          datefmt='%Y-%m-%d %H:%M:%S'
+    format='%(asctime)s - %(levelname)s - %(message)s',  # Perbaiki dari levellevel menjadi levelname datefmt='%Y-%m-%d %H:%M:%S'
 )
 
 # Fungsi untuk Logging Informasi Serangan
