@@ -32,18 +32,18 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 
 # Fungsi untuk Menampilkan Header BAIT dengan Warna
 def display_header():
-    header_lines = [
-        f"{Fore.RED}       / $$$$$$$$\       / $$$$\      /$$$$$$$$$|   /$$$$$$$$$|",
-        f"{Fore.RED}       | $$|    $$|     / $$/ $$\    | $$______/   | $$______/ ",
-        f"{Fore.WHITE}     | $$|__ $$/     / $$/ \ $$\   | $$          | $$        ",
-        f"{Fore.WHITE}     | $$$$$$$$\    / $$/   \ $$\  | $$$$$$$$$\  | $$$$$$$$| ",
-        f"{Fore.GREEN}     | $$|____$$|  / $$$$$$$$\ $$\  \_______ $$| | $$_____/  ",
-        f"{Fore.GREEN}     | $$$$$$$$/  / $$/       \ $$\  |$$$$$$$$$| | $$$$$$$$$| ",
-        f"{Fore.GREEN}     |________/   \___|        \___\  \_______/  |_________/",
+    header_lines = [        
+        f"{Fore.RED}        __________         _____         ________      ___________    ",
+        f"{Fore.RED}       |   ____   \       /     \       /   ___  \     |   ______/  ",
+        f"{Fore.WHITE}     |   |   |   |     /   /\  \     /   /   \  \    |   |           ",
+        f"{Fore.WHITE}     |   |___/  /     /   /__\  \   /   /_____\/_    |   |_____       ",
+        f"{Fore.GREEN}     |    ____  \    /   ______  \  \__________  \   |    _____|     ",
+        f"{Fore.GREEN}     |   |____|  |  /   /      \  \    ________|  |  |   |________  ",
+        f"{Fore.GREEN}     |__________/   \___|       \__\  /__________/   |___________/  ",
     ]
 
     # Tampilkan header dengan warna
-    for line in header_lines:
+    for line in header_lines
         print(line)
 
     # Versi dan URL
