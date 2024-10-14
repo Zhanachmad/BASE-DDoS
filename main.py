@@ -30,7 +30,7 @@ def log_attack_status(message, level='info', print_to_terminal=True):
         if print_to_terminal:
             print(f"{Fore.YELLOW}|    [WARNING] {message.ljust(63)}|")
 
-# Fungsi untuk Menampilkan Header BAIT dengan Warna
+# Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
     header_lines = [ 
         f"{Fore.RED}       /$$$$$$$$$\     / $$$$\     /$$$$$$$$$ /$$$$$$$$$| ",
