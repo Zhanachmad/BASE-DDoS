@@ -32,14 +32,14 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 
 # Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
-    header_lines = [ 
-        f"{Fore.RED}     /$$$$$$$$$\     / $$$$\     /$$$$$$$$$ /$$$$$$$$$| ",
-        f"{Fore.RED}    | $$______$$|   / $$/\$$\   | $$______ | $$______/  ",
-        f"{Fore.WHITE}    | $$|    $$/   / $$/  \$$\  | $$       | $$|        ",
-        f"{Fore.WHITE}    | $$$$$$$$ \  / $$$$$$$$$$\ | $$$$$$$$|| $$$$$$$$|  ",
-        f"{Fore.GREEN}    | $$|_____$$|/ $$/______\$$\ \_____|$$|| $$|______  ",
-        f"{Fore.GREEN}    | $$$$$$$$$// $$/        \$$\/$$$$$$$$|| $$$$$$$$$| ",
-        f"{Fore.GREEN}     \________/ \___\         \__\\______/ |_________/  "
+    header_lines = [       
+        f"{Fore.RED}     /$$$$$$$$$      / $$$       /$$$$$$$$  /$$$$$$$$$",
+        f"{Fore.RED}    | $$   |  $$    / $$ $$     | $$______  | $$______/",
+        f"{Fore.WHITE}    | $$___/ $$    / $$/\ $$    | $$        | $$       ",
+        f"{Fore.WHITE}    | $$$$$$$$    / $$$$$$$$$   | $$$$$$$$  | $$$$$$$$",
+        f"{Fore.GREEN}    | $$___| $$  / $$—————\ $$   \____  $$  | $$_____|",
+        f"{Fore.GREEN}    | $$$$$$$$  / $$       \ $$   $$$$$$$$  | $$$$$$$$$",
+        f"{Fore.GREEN}    |________/ /____        \___\|_______/  |_________/"
     ]
 
     # Tampilkan header dengan warna
