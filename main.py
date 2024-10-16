@@ -39,7 +39,7 @@ def display_header():
         f"{Fore.WHITE}    |  :::::::\    /  ::_\ ::   |  ::::::::: |  ::::::: ", 
         f"{Fore.GREEN}    |  ::___| ::  /  :::::::::   _______| :: |  ::______ ",
         f"{Fore.GREEN}    |__:::::::/  /__::     \_:: |__::::::::: |__::::::::: ",
-        f"{Fore.GREEN}       BRIGADE   ATTACKER   SNIPER  ELITE / BY: ZA      ",
+        f"{Fore.GREEN}       BRIGADE       ATTACKER       SNIPER       ELITE   ",
     ]
 
     # Tampilkan header dengan warna
