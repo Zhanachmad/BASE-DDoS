@@ -33,8 +33,8 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 # Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
     header_lines = [        
-        f"{Fore.RED}       _________        ___           ________  __________ ",
-        f"{Fore.RED}      |  :::::::\      /  ::       / ::::::::: |  ::::::::: ",
+        f"{Fore.RED}     _________        ___           ________  __________ ",
+        f"{Fore.RED}    |  :::::::\      /  ::       / ::::::::: |  ::::::::: ",
         f"{Fore.WHITE}    |  ::___| ::    /  :: ::    |  ::_____   |  ::____  ",
         f"{Fore.WHITE}    |  :::::::\    /  ::_\ ::   |  ::::::::: |  ::::::: ", 
         f"{Fore.GREEN}    |  ::___| ::  /  :::::::::   _______| :: |  ::______ ",
