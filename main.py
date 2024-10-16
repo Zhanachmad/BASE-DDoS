@@ -32,14 +32,14 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 
 # Fungsi untuk Menampilkan Header BASE dengan Warna
 def display_header():
-    header_lines = [       
-        f"{Fore.RED}     /$$$$$$$$$      / $$$       /$$$$$$$$  /$$$$$$$$$",
-        f"{Fore.RED}    | $$   |  $$    / $$ $$     | $$______  | $$______/",
-        f"{Fore.WHITE}    | $$___/ $$    / $$/\ $$    | $$        | $$       ",
-        f"{Fore.WHITE}    | $$$$$$$$    / $$$$$$$$$   | $$$$$$$$  | $$$$$$$$",
-        f"{Fore.GREEN}    | $$___| $$  / $$—————\ $$   \____  $$  | $$_____|",
-        f"{Fore.GREEN}    | $$$$$$$$  / $$       \ $$   $$$$$$$$  | $$$$$$$$$",
-        f"{Fore.GREEN}    |________/ /____        \___\|_______/  |_________/"
+    header_lines = [        
+        f"{Fore.RED}       _________        ___           ________  __________ ",
+        f"{Fore.RED}      |  :::::::\      /  ::       / ::::::::: |  ::::::::: ",
+        f"{Fore.WHITE}    |  ::___| ::    /  :: ::    |  ::_____   |  ::____  ",
+        f"{Fore.WHITE}    |  :::::::\    /  ::_\ ::   |  ::::::::: |  ::::::: ", 
+        f"{Fore.GREEN}    |  ::___| ::  /  :::::::::   _______| :: |  ::______ ",
+        f"{Fore.GREEN}    |__:::::::/  /__::     \_:: |__::::::::: |__::::::::: ",
+        f"{Fore.GREEN}       BRIGADE   ATTACKER   SNIPER  ELITE / BY: ZA      ",
     ]
 
     # Tampilkan header dengan warna
