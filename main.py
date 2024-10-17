@@ -30,18 +30,17 @@ def log_attack_status(message, level='info', print_to_terminal=True):
         if print_to_terminal:
             print(f"{Fore.YELLOW}|    [WARNING] {message.ljust(63)}|")
 
-# Fungsi untuk Menampilkan Header BASE dengan Warna
+# Fungsi untuk Menampilkan Header BAIT dengan Warna
 def display_header():
-    header_lines = [        
-        f"{Fore.RED}     _________        ___           ________  __________ ",
-        f"{Fore.RED}    |  :::::::\      /  ::       / ::::::::: |  ::::::::: ",
-        f"{Fore.WHITE}    |  ::___| ::    /  :: ::    |  ::_____   |  ::____  ",
-        f"{Fore.WHITE}    |  :::::::\    /  ::_\ ::   |  ::::::::: |  ::::::: ", 
-        f"{Fore.GREEN}    |  ::___| ::  /  :::::::::   _______| :: |  ::______ ",
-        f"{Fore.GREEN}    |__:::::::/  /__::     \_:: |__::::::::: |__::::::::: ",
-        f"{Fore.GREEN}       BRIGADE       ATTACKER       SNIPER       ELITE   "
-         ]
-    
+    header_lines = [
+        f"{Fore.RED}        ░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░▒▓████████▓▒░",
+        f"{Fore.RED}        ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        ",
+        f"{Fore.WHITE}        ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        ",
+        f"{Fore.WHITE}        ░▒▓███████▓▒░░▒▓████████▓▒░░▒▓██████▓▒░░▒▓██████▓▒░   ",
+        f"{Fore.GREEN}        ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░        ",
+        f"{Fore.GREEN}        ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░        ",
+        f"{Fore.GREEN}        ░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓████████▓▒░"
+    ]
 
     # Tampilkan header dengan warna
     for line in header_lines:
